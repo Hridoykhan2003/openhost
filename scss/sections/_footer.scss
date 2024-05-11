@@ -4,7 +4,6 @@
 
 .footer {
     padding-top: 1rem;
-    background-color: $footer;
 }
 
 // STYLE THE CONTACT-BOX CONTENT 
@@ -12,20 +11,20 @@
     position: relative;
 
     &__icon {
-       width: 2rem;
-       stroke: $primary; 
-       padding-top: 0.5rem;
+        width: 2rem;
+        stroke: $primary;
+        padding-top: 0.5rem;
 
-       @include media-breakpoint-up(sm) {
-        width: 4rem;
-       }
+        @include media-breakpoint-up(sm) {
+            width: 4rem;
+        }
     }
 
 
     &__info {
         padding: 0.4rem;
         font-weight: 600;
-        
+
 
 
         &--title {
@@ -35,7 +34,7 @@
 
             @include media-breakpoint-up(sm) {
                 font-size: 1.4rem;
-               }
+            }
 
         }
 
@@ -46,8 +45,8 @@
 
             @include media-breakpoint-up(sm) {
                 font-size: 1rem;
-               }
-            
+            }
+
         }
     }
 }
@@ -65,10 +64,11 @@
 
             @include media-breakpoint-up(sm) {
                 font-size: 1.6rem;
-               }
+            }
 
 
         }
+
         &:hover {
             color: $primary;
         }
@@ -103,7 +103,7 @@
     &__copyright {
         color: $gray-600;
         font-weight: 400;
-        
+
 
         a {
             color: $gray-300;
@@ -112,7 +112,7 @@
             &:hover {
                 color: $primary;
                 text-decoration: underline;
-             
+
             }
         }
     }
